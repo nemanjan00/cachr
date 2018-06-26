@@ -11,8 +11,13 @@ Keshr is Node.js task scheduler, cacher and notification manager.
 <!-- vim-markdown-toc GFM -->
 
 * [Features](#features)
-* [Architecture](#architecture)
+* [Installation](#installation)
+* [Usage](#usage)
+	* [Wrapper](#wrapper)
+	* [Scheduler](#scheduler)
 	* [Daemon](#daemon)
+* [Architecture](#architecture)
+	* [Daemon](#daemon-1)
 	* [Client](#client)
 * [Developers guide](#developers-guide)
 	* [Yarn package manager](#yarn-package-manager)
@@ -31,6 +36,40 @@ Keshr is Node.js task scheduler, cacher and notification manager.
  * [ ] Wrapper for cached tasks
 
  * [ ] Notifications
+
+## Installation
+
+You will need node and npm installed. 
+
+```bash
+sudo npm install -g keshr
+```
+
+## Usage
+
+### Wrapper
+
+Wrapper can either run command that is not inside your scheduler config and store its output in cache for some time or run the one that is in your config. 
+
+Example: 
+
+```bash
+keshr wrapper -c "ls" -t 1h
+```
+
+### Scheduler
+
+You can define tasks in ``~/.config/keshr/config.json``
+
+### Daemon
+
+For keshr to work, you need to start daemon first. 
+
+```bash
+keshr daemon [-d]
+```
+
+Where -d runs it in background. 
 
 ## Architecture
 
