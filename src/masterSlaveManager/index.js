@@ -67,9 +67,3 @@ module.exports = {
 	}
 };
 
-module.exports.isMasterRunning().then((masterRunning) => {
-	if(!masterRunning) {
-		console.log(module.exports.becomeMaster());
-	}
-});
-
