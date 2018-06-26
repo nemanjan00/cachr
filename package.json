@@ -6,6 +6,9 @@
   "repository": "git@github.com:nemanjan00/keshr.git",
   "author": "Nemanja Nedeljkovic <nemanjan00@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "keshr": "./bin/keshr.js"
+  },
   "dependencies": {
     "configstore": "^3.1.2"
   }
