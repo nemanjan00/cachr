@@ -1,3 +1,5 @@
+// DOCUMENT: CLI command router
+
 module.exports = {
 	routes: {
 		start: {

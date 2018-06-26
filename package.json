@@ -9,6 +9,9 @@
   "bin": {
     "keshr": "./bin/keshr.js"
   },
+  "scripts": {
+    "document": "clear ; grep -r DOCUMENT ./src"
+  },
   "dependencies": {
     "configstore": "^3.1.2",
     "node-ipc": "^9.1.1",

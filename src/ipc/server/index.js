@@ -1,3 +1,5 @@
+// DOCUMENT: IPC Server
+
 const ipc = require("node-ipc");
 
 module.exports = (config) => {

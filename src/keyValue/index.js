@@ -1,4 +1,4 @@
-// Storage for command outputs
+// DOCUMENT: Storage for command outputs
 
 const store = {};
 
