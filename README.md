@@ -1,6 +1,8 @@
 # keshr
 
 [![npm version](https://badge.fury.io/js/keshr.svg)](https://badge.fury.io/js/keshr)
+[![npm](https://img.shields.io/npm/dt/keshr.svg)](https://www.npmjs.com/package/keshr)
+
 
 Keshr is Node.js task scheduler, cacher and notification manager.
 
