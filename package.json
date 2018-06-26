@@ -1,7 +1,7 @@
 {
-  "name": "cachr",
+  "name": "keshr",
   "version": "0.0.0",
-  "description": "Cachr is Node.js task scheduler, cacher and notification manager.",
+  "description": "Keshr is Node.js task scheduler, cacher and notification manager.",
   "main": "index.js",
   "repository": "git@github.com:nemanjan00/cachr.git",
   "author": "Nemanja Nedeljkovic <nemanjan00@gmail.com>",
